@@ -10,35 +10,7 @@ drawName();
 function drawName() {
 
     context.lineWidth = 10;
-
-    //L
-    context.strokeStyle = "red";
-    context.beginPath();
-    context.moveTo(100, 50);
-    context.lineTo(100, 250);
-    context.lineTo(200, 250);
-    context.stroke();
-
-    //U
-    context.lineWidth = 10;
-    context.strokeStyle = "blue";
-    context.beginPath();
-    context.moveTo(250, 100);
-    context.lineTo(250, 250);
-    context.lineTo(350, 250);
-    context.lineTo(350, 100);
-    context.stroke();
-
-    //C
-    context.lineWidth = 10;
-    context.strokeStyle = "green";
-    context.beginPath();
-    context.moveTo(500, 100);
-    context.lineTo(400, 100);
-    context.lineTo(400, 250);
-    context.lineTo(500, 250);
-    context.stroke();
-
+ 
     //A
     context.strokeStyle = "black";
     context.beginPath();
@@ -48,6 +20,15 @@ function drawName() {
     context.lineTo(700, 300);
     context.moveTo(565, 225);
     context.lineTo(670, 225);
+    //L
+    context.strokeStyle = "red";
+    context.beginPath();
+    context.moveTo(100, 50);
+    context.lineTo(100, 250);
+    context.lineTo(200, 250);
+    context.stroke();
+
+   
 
     context.stroke();
 
