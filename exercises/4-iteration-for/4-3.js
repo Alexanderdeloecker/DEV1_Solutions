@@ -2,7 +2,7 @@
 import context from "../../scripts/context.js";
 import * as Utils from "../../scripts/utils.js";
 
-drawCircles6();
+drawCircles1();
 
 function drawCircles1() {
     for (let i = 0; i < 10; i++) {
